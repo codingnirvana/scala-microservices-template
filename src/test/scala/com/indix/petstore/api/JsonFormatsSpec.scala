@@ -1,7 +1,7 @@
 package com.indix.petstore.api
 
 import com.indix.petstore.models.User
-import org.scalatest.{FlatSpec, Matchers}
+import org.scalatest.{ FlatSpec, Matchers }
 import spray.json._
 import com.indix.petstore.api.JsonFormats._
 

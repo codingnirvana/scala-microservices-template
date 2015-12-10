@@ -7,9 +7,9 @@ import com.indix.petstore.models.User
 import com.typesafe.config.Config
 import org.scalamock.scalatest.MockFactory
 import org.scalatest.concurrent.ScalaFutures
-import org.scalatest.{FlatSpec, Matchers}
+import org.scalatest.{ FlatSpec, Matchers }
 
-import scala.concurrent.{Future, ExecutionContext}
+import scala.concurrent.{ Future, ExecutionContext }
 
 class UserServiceSpec extends FlatSpec with Matchers with MockFactory with ScalaFutures {
 

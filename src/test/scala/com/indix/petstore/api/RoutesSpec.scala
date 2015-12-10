@@ -1,7 +1,7 @@
 package com.indix.petstore.api
 
 import akka.http.scaladsl.testkit.ScalatestRouteTest
-import org.scalatest.{Matchers, FlatSpec}
+import org.scalatest.{ Matchers, FlatSpec }
 
 class RoutesSpec extends FlatSpec with Matchers with ScalatestRouteTest {
 
